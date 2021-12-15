@@ -12,7 +12,8 @@ public class Bird
         this.maxSpeed = maxSpeed;
     }
 
-    public void speak() {
+    public void speak()
+    {
         System.out.println(name + " wants a cracker!");
     }
 
@@ -20,8 +21,5 @@ public class Bird
     {
         System.out.println("I'm " + name + " and I can fly at " + maxSpeed + " km/h!");
     }
-
-
-
 
 }
