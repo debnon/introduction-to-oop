@@ -1,4 +1,4 @@
-public class Bird
+public abstract class Bird
 {
 
     protected String name;
@@ -12,10 +12,7 @@ public class Bird
         this.maxSpeed = maxSpeed;
     }
 
-    public void speak()
-    {
-        System.out.println(name + " wants a cracker!");
-    }
+    public abstract void speak();
 
     public void fly()
     {

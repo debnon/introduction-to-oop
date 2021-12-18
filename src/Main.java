@@ -1,14 +1,17 @@
 public class Main {
     public static void main(String[] args)
     {
-        Bird myBird = new Bird("Tweety", "Yellow", 25);
-        myBird.speak();
-        myBird.fly();
-
-        Pigeon pippa = new Pigeon("Pippa", "Grey", 150);
+        Pigeon pippa = new Pigeon("Pippa", "grey", 150);
         pippa.speak();
         pippa.fly();
         pippa.eatPizza();
         pippa.sleep();
+
+        Penguin pingu = new Penguin("Pingu", "Black & White");
+        pingu.speak();
+        pingu.fly();
+
+        Parrot jack = new Parrot("Jack", "red");
+        jack.speak();
     }
 }
