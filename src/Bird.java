@@ -30,5 +30,4 @@ public abstract class Bird implements DanceImpl
     public void jump() {
         System.out.println(name + " jump in the air!");
     }
-
 }

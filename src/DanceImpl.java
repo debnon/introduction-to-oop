@@ -1,4 +1,5 @@
-public interface DanceImpl {
+public interface DanceImpl
+{
 
     void spin();
     void doTheCaterpillar();

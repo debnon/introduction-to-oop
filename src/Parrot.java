@@ -1,5 +1,5 @@
-public class Parrot extends Bird {
-
+public class Parrot extends Bird
+{
     public Parrot(String name, String colour)
     {
         super(name, colour, 50);

@@ -1,5 +1,5 @@
-public class Penguin extends Bird {
-
+public class Penguin extends Bird
+{
     public Penguin(String name, String colour)
     {
         super(name, colour, 0);
