@@ -1,4 +1,4 @@
-public interface DanceImpl
+public interface Dance
 {
 
     void spin();
